@@ -4,8 +4,11 @@
     "config:best-practices",
     ":semanticCommits",
     ":separateMultipleMajorReleases",
-    "group:allNonMajor",
-    "schedule:weekly"
+    "group:allNonMajor"
   ],
-  "timezone": "Asia/Taipei"
+  "timezone": "Asia/Taipei",
+  "schedule": ["* * * * 1"],
+  "lockFileMaintenance": {
+    "schedule": ["* * * * 1"]
+  }
 }
